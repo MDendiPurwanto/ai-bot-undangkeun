@@ -60,7 +60,7 @@ async function getLLMResponse(message, data) {
             {
                 model: 'mistral-small',
                 messages: messages,
-                max_tokens: 150, // Ubah kembali ke 150 (131000 terlalu besar)
+                max_tokens: 4096, // Ubah kembali ke 150 (131000 terlalu besar)
                 temperature: 0.6
             },
             {
